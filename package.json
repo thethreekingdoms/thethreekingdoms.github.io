@@ -1,0 +1,20 @@
+{
+  "name": "thethreekingdoms.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "blackTheme.ad170a39.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thethreekingdoms/thethreekingdoms.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thethreekingdoms/thethreekingdoms.github.io/issues"
+  },
+  "homepage": "https://github.com/thethreekingdoms/thethreekingdoms.github.io#readme"
+}
