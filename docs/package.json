@@ -1,0 +1,22 @@
+{
+  "name": "boi-doc",
+  "version": "0.0.1",
+  "description": "boi documents",
+  "main": "index.js",
+  "scripts": {
+    "dev": "docsify serve ./",
+    "build": "",
+    "release": ""
+  },
+  "author": "zhoujunpeng <zjp0432@163.com> (http://caiziguoguo.com)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boijs/docs.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/boijs/docs/issues"
+  },
+  "homepage": "https://github.com/boijs/docs#readme"
+}
