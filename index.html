@@ -13,10 +13,12 @@
     ">
     <link rel="stylesheet" href="/css/common.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="/css/index.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/css/lrtk.css" media="screen" charset="utf-8">
   </head>
 
   <body>
-    <nav class="navbar navbar-default navbar-fixed-top boi-navbar" role="navigation">
+      <div class="layout-content">
+          <nav class="navbar navbar-default navbar-fixed-top boi-navbar" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -32,7 +34,6 @@
         <div class="brand-title">TTK</div>
       </a>
     </div>
-
     <div class="collapse navbar-collapse" id="index-navbar">
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -41,16 +42,12 @@
         <li>
           <a href="/docs">文档</a>
         </li>
-
         <li>
           <a href="/html/">在线演示</a>
         </li>
         <li>
           <a href="/appstore/">应用中心</a>
-        </li>
-        <li>
-          <a href="https://github.com/thethreekingdoms/thethreekingdoms.github.io/issues">Bug反馈</a>
-        </li>
+        </li>       
         <li>
           <a href="/about">关于我们</a>
         </li>
@@ -127,7 +124,7 @@
         </li>
         <li class="entry-item">
           <a target='_blank' href="/docs/#/_testing">规范测试</a> /
-          <a target='_blank' href="/docs/#/_modules">模块化开发</a>
+          <a target='_blank' href="/docs/#/_component">组件化开发</a>
         </li>
         <li class="entry-item">
           <a target='_blank' href="/docs/#/_config-js">JS</a> /
@@ -256,6 +253,52 @@
 <script src='/js/libs/bootstrap.min.js'></script>
 <script src='/js/index.js'></script>
 
+        </div>
+        <div class="go-top dn" id="go-top">
+          <a href="javascript:;" class="uc-2vm"></a>
+          <div class="uc-2vm-pop dn">
+            <h2 class="title-2wm">用微信扫一扫</h2>
+            <div class="logo-2wm-box">
+              <img src="assets/weixin.jpg" alt="ttk" width="240" height="240">
+            </div>
+          </div>
+          <a href="https://github.com/thethreekingdoms/thethreekingdoms.github.io/issues" target="_blank" class="feedback"></a>
+          <a href="javascript:;" class="go"></a>
+        </div>
+      
+        <script>
+          $(function () {
+            $(window).on('scroll', function () {
+              var st = $(document).scrollTop();
+              if (st > 0) {
+                if ($('#main-container').length != 0) {
+                  var w = $(window).width(), mw = $('#main-container').width();
+                  if ((w - mw) / 2 > 70)
+                    $('#go-top').css({ 'left': (w - mw) / 2 + mw + 20 });
+                  else {
+                    $('#go-top').css({ 'left': 'auto' });
+                  }
+                }
+                $('#go-top').fadeIn(function () {
+                  $(this).removeClass('dn');
+                });
+              } else {
+                $('#go-top').fadeOut(function () {
+                  $(this).addClass('dn');
+                });
+              }
+            });
+            $('#go-top .go').on('click', function () {
+              $('html,body').animate({ 'scrollTop': 0 }, 500);
+            });
+      
+            $('#go-top .uc-2vm').hover(function () {
+              $('#go-top .uc-2vm-pop').removeClass('dn');
+            }, function () {
+              $('#go-top .uc-2vm-pop').addClass('dn');
+            });
+          });
+        </script>
   </body>
 
 </html>
