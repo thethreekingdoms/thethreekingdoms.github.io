@@ -44,6 +44,7 @@
         "ttk-edf-app-column", 
         "ttk-edf-app-tools",
         "ttk-edf-app-list-search",
-        "ttk-edf-app-register"
+        "ttk-edf-app-register",
+        "ttk-edf-app-forgot-password"
     ]
 }
