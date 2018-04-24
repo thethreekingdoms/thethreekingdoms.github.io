@@ -47,6 +47,7 @@
         "ttk-edf-app-register",
         "ttk-edf-app-forgot-password",
         "ttk-edf-app-portal2",
-        "ttk-edf-app-pagestyle"
+        "ttk-edf-app-pagestyle",
+        "ttk-table-app-edittable"
     ]
 }
