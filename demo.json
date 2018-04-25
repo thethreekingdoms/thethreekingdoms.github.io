@@ -41,6 +41,7 @@
         "ttk-edf-app-portal-menu-detail",
         "ttk-edf-app-operation", 
         "ttk-edf-app-role-auth", 
+        "ttk-edf-app-role",
         "ttk-edf-app-enum", 
         "ttk-edf-app-column", 
         "ttk-edf-app-tools",
