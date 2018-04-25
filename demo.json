@@ -38,6 +38,7 @@
         "ttk-edf-app-list-userdefinecard", 
         "ttk-edf-app-card-userdefinecard",
         "ttk-edf-app-portal-menu", 
+        "ttk-edf-app-portal-menu-detail",
         "ttk-edf-app-operation", 
         "ttk-edf-app-role-auth", 
         "ttk-edf-app-enum", 
