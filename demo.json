@@ -51,6 +51,7 @@
         "ttk-edf-app-portal-hor",
         "ttk-edf-app-pagestyle",
         "ttk-table-app-edittable",
-        "ttk-edf-app-iframe"
+        "ttk-edf-app-iframe",
+        "ttk-edf-app-advancerpt"
     ]
 }
