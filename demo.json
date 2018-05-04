@@ -52,6 +52,10 @@
         "ttk-edf-app-pagestyle",
         "ttk-table-app-edittable",
         "ttk-edf-app-iframe",
-        "ttk-edf-app-advancerpt"
+        "ttk-edf-app-advancerpt",
+        "ttk-edf-app-company-manage",
+        "ttk-edf-app-devtools",
+        "ttk-edf-app-hotloader",
+        "ttk-edf-app-im"
     ]
 }
