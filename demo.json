@@ -56,6 +56,7 @@
         "ttk-edf-app-company-manage",
         "ttk-edf-app-devtools",
         "ttk-edf-app-hotloader",
-        "ttk-edf-app-im"
+        "ttk-edf-app-im",
+        "ttk-edf-app-voucher"
     ]
 }
